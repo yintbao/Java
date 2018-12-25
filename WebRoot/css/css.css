@@ -1,0 +1,634 @@
+@charset "utf-8";
+/* CSS Document */
+a {
+	text-decoration: none;
+} /* 链接无下划线,有为underline */
+a:link {
+	text-decoration: none; /* 未访问的链接 */
+	color: #595959;
+}
+
+a:visited {
+	color: #595959;
+	text-decoration: none; /* 已访问的链接 */
+}
+
+a:hover {
+	color: #ae0927;
+	text-decoration: none; /* 鼠标在链接上 */
+}
+
+a:active {
+	color: #595959;
+	text-decoration: none; /* 点击激活链接 */
+}
+
+body {
+	margin: 0px auto;
+	font-family: arial, 宋体, helvetica, sans-serif, "arial narrow",
+		"times new roman";
+	font-size: 9pt;
+	color: #595959;
+	margin-top: 0px;
+	background-color: #FFFFFF;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0px;
+}
+
+#top_ad {
+	margin: auto;
+	width: 100%;
+	display: block;
+	height: 85px;
+}
+
+div {
+	font-family: arial, 宋体, helvetica, sans-serif, "arial narrow",
+		"times new roman";
+	font-size: 9pt;
+	line-height: 150%;
+	font-weight: normal;
+	color: #333333;
+}
+
+li {
+	list-style-type: none;
+}
+
+#menus {
+	margin: 0px auto;
+	float: left;
+	list-style-type: none;
+	width: 978px;
+	position: relative;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	text-align: left;
+	vertical-align: text-bottom;
+	padding-top: 0px;
+	*padding-top: 0px;
+	_padding-top: 0px;
+	*padding-left: 0px;
+}
+
+#menus li {
+	float: left;
+	display: block;
+	color: #ffffff;
+	height: 44px;
+	line-height: 44px;
+	vertical-align: text-bottom;
+	width: 87px;
+	text-align: center;
+}
+
+#menus li a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	height: 44px;
+	line-height: 44px;
+	vertical-align: text-bottom;
+	width: 87px;
+	text-align: center;
+}
+
+#menus li a:hover,#menus li a.current {
+	float: left;
+	display: block;
+	color: #cd110c;
+	height: 44px;
+	line-height: 44px;
+	width: 87px;
+	padding-top: 0px;
+	*padding-top: 0px;
+	_padding-top: 0px;
+	*padding-left: 0px;
+	text-align: center;
+	background: url(images/mnu1_bg_1.png) repeat-x;
+}
+
+#menus1 {
+	margin: 0px auto;
+	float: left;
+	list-style-type: none;
+	width: 700px;
+	position: relative;
+	display: block;
+	height: 44px;
+	line-height: 44px;
+	text-align: left;
+	vertical-align: text-bottom;
+	padding-top: 0px;
+	*padding-top: 0px;
+	_padding-top: 0px;
+	*padding-left: 0px;
+}
+
+#menus1 li {
+	float: left;
+	display: block;
+	color: #ffffff;
+	height: 44px;
+	line-height: 44px;
+	vertical-align: text-bottom;
+	width: 87px;
+	text-align: center;
+}
+
+#menus1 li a {
+	float: left;
+	display: block;
+	color: #ffffff;
+	height: 44px;
+	line-height: 44px;
+	vertical-align: text-bottom;
+	width: 87px;
+	text-align: center;
+}
+
+#menus1 li a:hover,#menus1 li a.current {
+	float: left;
+	display: block;
+	color: #c40060;
+	height: 44px;
+	line-height: 44px;
+	width: 87px;
+	padding-top: 0px;
+	*padding-top: 0px;
+	_padding-top: 0px;
+	*padding-left: 0px;
+	text-align: center;
+	background: url(images/mnu1_bg_1.png) repeat-x;
+}
+
+.nav-wrap {
+	position: relative;
+	*z-index: 2;
+	width: 100%;
+}
+
+.nav {
+	position: relative;
+	width: 770px;
+	height: 40px;
+	margin: 0 auto;
+	padding-left: 190px;
+}
+
+.goods {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 190px;
+	height: 40px;
+}
+
+.goods h2 a {
+	display: block;
+	height: 44px;
+	padding-left: 20px;
+	line-height: 44px;
+	color: #fff;
+}
+
+.goods h2 a:hover {
+	text-decoration: none;
+}
+
+.nav-list {
+	height: 44px;
+}
+
+.nav-list li {
+	float: left;
+	margin-right: 1px;
+}
+
+.nav-list a {
+	display: block;
+	height: 44px;
+	float: left;
+	padding: 0 15px;
+	text-align: center;
+	color: #fff;
+	font: bold 15px/40px "microsoft yahei";
+	text-decoration: none;
+}
+
+.nav-list a:hover {
+	background: #FDE2D7;
+	text-decoration: none;
+	color: #F00;
+}
+
+.nav-list a.on {
+	background: #d25400;
+}
+
+.all-goods {
+	position: absolute;
+	top: 44px;
+	left: 0;
+	width: 186px;
+	height: auto;
+	background: #FAFAFA;
+	border: solid #ff6600;
+	border-width: 0 2px 2px;
+	overflow: visible;
+}
+
+.all-goods .item1 {
+	width: 186px;
+	height: 36px;
+	border-top: 1px solid #FFF;
+	background: #f7f7f7;
+}
+
+.all-goods .btnone {
+	border-top: none;
+}
+
+.all-goods .item1 .product {
+	position: absolute;
+	z-index: 999;
+	width: 186px;
+}
+
+.all-goods .item1 .product h3 {
+	width: 157px;
+	height: 34px;
+	padding-left: 28px;
+	border-width: 1px 0;
+	font-weight: normal;
+	line-height: 36px;
+	background: url(http://gtcdn1.gaitu.com/images/www/indexSprite.png)
+		no-repeat -12px 12px;
+}
+
+.all-goods .item1 .product h3 a {
+	color: #666666;
+	font-size: 14px;
+	font-family: "宋体";
+}
+
+.all-goods .item1 .product h3 a:hover {
+	text-decoration: none;
+}
+
+.all-goods .item1 .product s {
+	display: block;
+	position: absolute;
+	top: 13px;
+	left: 167px;
+	width: 6px;
+	height: 9px;
+	background: url(http://gtcdn1.gaitu.com/images/www/indexSprite.png)
+		no-repeat 0px 0px;
+}
+
+.all-goods .active .product h3 {
+	line-height: 32px;
+	background-position: -12px -185px;
+	background-color: #fff7f0;
+	border: 1px solid #ffb556;
+	border-width: 2px 0;
+	width: 160px;
+}
+
+.all-goods .active .product h3 a {
+	color: #ff6600;
+}
+
+.all-goods .product-wrap {
+	position: absolute;
+	width: 478px;
+	z-index: 99;
+	border: 2px solid #ffb556;
+	background: #fff7f0;
+	padding: 20px;
+	display: none;
+}
+
+.all-goods .product-wrap p {
+	color: #999999;
+}
+
+.all-goods .posone {
+	left: 186px;
+	top: 0px;
+}
+
+.all-goods .postwo {
+	left: 186px;
+	top: 37px;
+}
+
+.all-goods .posthree {
+	left: 186px;
+	top: 74px;
+}
+
+.all-goods .posfour {
+	left: 186px;
+	top: 111px;
+}
+
+.all-goods .posfive {
+	left: 186px;
+	top: 148px;
+}
+
+.all-goods .possix {
+	left: 186px;
+	top: 185px;
+}
+
+.all-goods .posseven {
+	left: 186px;
+	bottom: -2px;
+}
+
+.all-goods .poseight {
+	left: 186px;
+	bottom: -2px;
+}
+
+.all-goods .posnine {
+	left: 186px;
+	bottom: -2px;
+}
+
+.all-goods .posten {
+	left: 186px;
+	bottom: -2px;
+}
+
+.all-goods .poseleven {
+	left: 186px;
+	bottom: -2px;
+}
+
+.all-goods .product-wrap h2 {
+	font-size: 16px;
+	color: #333;
+	font-weight: bold;
+}
+
+.all-goods .product-wrap h2 a {
+	height: auto;
+	line-height: 16px;
+	color: #333;
+	padding-left: 0;
+}
+
+.all-goods .product-wrap ul {
+	border-top: 2px solid #c1c1c1;
+}
+
+.all-goods .product-wrap ul li {
+	float: left;
+	display: inline;
+	margin-right: 15px;
+	margin-top: 15px;
+	white-space: nowrap;
+}
+
+.all-goods .product-wrap ul li a {
+	padding-left: 30px;
+	background: url(http://gtcdn1.gaitu.com/images/www/indexSprite.png)
+		no-repeat -8px -249px;
+	color: #666666;
+	display: inline-block;
+	line-height: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.all-goods .product-wrap ul li a:hover {
+	text-decoration: none;
+	background-position: -8px -219px;
+	color: #ff6600;
+}
+
+.all-goods .product-wrap div dd,.all-goods .product-wrap div dl a {
+	display: block;
+	width: 185px;
+	height: 120px;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+
+#main6 {
+	margin: 0px auto;
+	width: 1200px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.productmini {
+	float: left;
+	width: 192px;
+	_width: 192px;
+	margin-left: 5px;
+	*margin-left: 5px;
+	margin-bottom: 8px;
+	*margin-bottom: 5px;
+	background-color: #ffffff;
+	text-align: center;
+	border: #f1f1f1 1px solid;
+}
+
+.productminims {
+	float: left;
+	width: 183px;
+	_width: 180px;
+	margin-left: 8px;
+	*margin-left: 8px;
+	_margin-left: 5px;
+	margin-bottom: 5px;
+	*margin-bottom: 5px;
+	margin-top: 8px;
+	*margin-top: 8px;
+	background-color: #ffffff;
+	text-align: center;
+	border: #e1e1e1 1px solid;
+	padding-left: 5px;
+}
+
+.productmini_over {
+	float: left;
+	width: 192px;
+	_width: 192px;
+	margin-left: 5px;
+	*margin-left: 5px;
+	margin-bottom: 8px;
+	*margin-bottom: 5px;
+	border: #c40000 1px solid;
+	background-color: #ffffff;
+	text-align: center;
+}
+
+.product_over {
+	float: left;
+	width: 180px;
+	*width: 180px;
+	_width: 152px;
+	min-height: 256px;
+	margin-left: 2px;
+	_margin-left: 4px;
+	margin-bottom: 5px;
+	border: #c40000 1px solid;
+	background-color: #ffffff;
+	text-align: center;
+	padding-left: 0px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFFFFF;
+}
+
+
+.loginForm {
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2), 0
+		3px 0 #fff, 0 4px 0 rgba(0, 0, 0, 0.2), 0 6px 0 #fff, 0 7px 0
+		rgba(0, 0, 0, 0.2);
+	position: absolute;
+	z-index: 0;
+	background-color: #FFF;
+	border-radius: 4px;
+	height: 250px;
+	width: 380px;
+	background: -webkit-gradient(linear, left top, left 24, from(#EEE),
+		color-stop(4%, #FFF), to(#EEE));
+	background: -moz-linear-gradient(top, #EEE, #FFF 1px, #EEE 24px);
+	background: -o-linear-gradient(top, #EEEEEE, #FFFFFF 1px, #EEEEEE 24px);
+}
+
+.loginForm:before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	border: 1px dashed #CCC;
+	top: 5px;
+	bottom: 5px;
+	left: 5px;
+	right: 5px;
+	box-shadow: 0 0 0 1px #FFF;
+}
+
+.loginForm h1 {
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .7), 0px 2px 0
+		rgba(0, 0, 0, .5);
+	text-transform: uppercase;
+	text-align: center;
+	color: #666;
+	line-height: 3em;
+	margin: 16px 0 20px 0;
+	letter-spacing: 4px;
+	font: normal 26px/1 Microsoft YaHei, sans-serif;
+}
+
+fieldset {
+	border: none;
+	padding: 10px 10px 0;
+}
+
+fieldset input[type=text] {
+	background: url(style/default/images/user.png) 4px 5px no-repeat;
+}
+
+fieldset input[type=password] {
+	background: url(style/default/images/password.png) 4px 5px no-repeat;
+}
+
+fieldset input[type=text],fieldset input[type=password] {
+	width: 100%;
+	line-height: 2em;
+	font-size: 12px;
+	height: 24px;
+	border: none;
+	padding: 3px 4px 3px 2.2em;
+	width: 300px;
+}
+
+fieldset input[type=submit] {
+	text-align: center;
+	padding: 2px 20px;
+	line-height: 2em;
+	border: 1px solid #FF1500;
+	border-radius: 3px;
+	background: -webkit-gradient(linear, left top, left 24, from(#FF6900),
+		color-stop(0%, #FF9800), to(#FF6900));
+	background: -moz-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF9800 0, #FF6900 24px);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9800',
+		endColorstr='#FF6900');
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF9800', endColorstr='#FF6900')";
+	height: 30px;
+	cursor: pointer;
+	letter-spacing: 4px;
+	margin-left: 10px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+fieldset input[type=submit]:hover {
+	background: -webkit-gradient(linear, left top, left 24, from(#FF9800),
+		color-stop(0%, #FF6900), to(#FF9800));
+	background: -moz-linear-gradient(top, #FF9800, #FF6900 0, #FF9800 24px);
+	background: -o-linear-gradient(top, #FF6900, #FF6900 0, #FF9800 24px);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6900',
+		endColorstr='#FF9800');
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF6900', endColorstr='#FF9800')";
+}
+
+.inputWrap {
+	background: -webkit-gradient(linear, left top, left 24, from(#FFFFFF),
+		color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	background: -o-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 24px);
+	border-radius: 3px;
+	border: 1px solid #CCC;
+	margin: 10px 10px 0;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE',
+		endColorstr='#FFFFFF');
+	-ms-filter:
+		"progid:DXImageTransform.Microsoft.gradient(startColorstr='#EEEEEE', endColorstr='#FFFFFF')";
+}
+
+fieldset input[type=checkbox] {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+fieldset a {
+	color: blue;
+	font-size: 12px;
+	margin: 6px 0 0 10px;
+	text-decoration: none;
+}
+
+fieldset a:hover {
+	text-decoration: underline;
+}
+
+fieldset span {
+	font-size: 12px;
+}

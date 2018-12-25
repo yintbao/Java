@@ -1,0 +1,10 @@
+#Sat May 10 10:11:44 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/js/jquery-1.7.2.min.js=UTF-8
+encoding//WebRoot/js/jquery-2.0.3.min.js=UTF-8
+encoding//WebRoot/jsps/js/user/login.js=UTF-8
+encoding//WebRoot/jsps/js/user/register.js=UTF-8
+encoding//WebRoot/jsps/js/user/updatepassword.js=UTF-8
+encoding//WebRoot/jsps/user/info/updatepwd.jsp=UTF-8
+encoding//src/com/inspur/model/Category.java=UTF-8
+encoding//src/com/inspur/util/AdminLoginServlet.java=UTF-8
